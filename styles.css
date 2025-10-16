@@ -30,3 +30,18 @@ a {
   color: #ffcc00;
   text-decoration: none;
 }
+
+
+#intro-text {
+  font-size: 2rem;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  margin: auto;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
